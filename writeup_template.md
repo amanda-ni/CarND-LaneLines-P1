@@ -25,7 +25,7 @@ The goals / steps of this project are the following:
 
 My pipeline consisted of 5 steps:
 
-1. *Detect the Edges* - This will convert the image to grayscale and then blur it so that only _true_ lines will be detected. I had to play with the `low_threshold` and `high_threshold`, so I added that as a function. For example, during the "challenging" problem, I noticed that white pavement was especially difficult to detect.
+1. __Detect the Edges__ - This will convert the image to grayscale and then blur it so that only _true_ lines will be detected. I had to play with the `low_threshold` and `high_threshold`, so I added that as a function. For example, during the "challenging" problem, I noticed that white pavement was especially difficult to detect.
 2. Apply a Mask
 3. Detect the Lanes
 4. Filter out irrelevant lines
