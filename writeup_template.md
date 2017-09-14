@@ -31,7 +31,7 @@ My pipeline consisted of 5 steps:
 4. Filter out irrelevant lines
 5. Draw the lines
 
-![alt text][image1]
+![solidWhiteCurves][test_images_output/solidWhiteCurves.jpg]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
