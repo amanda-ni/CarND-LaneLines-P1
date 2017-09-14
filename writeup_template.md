@@ -31,7 +31,7 @@ My pipeline consisted of 5 steps:
 4. Filter out irrelevant lines
 5. Draw the lines
 
-![solidWhiteCurves][test_images_output/solidWhiteCurve.jpg]
+![solidWhiteCurve.jpg][test_images_output/solidWhiteCurve.jpg]
 
 <img src="test_images_output/solidWhiteCurve.jpg" width="480" alt="Combined Image" />
 
