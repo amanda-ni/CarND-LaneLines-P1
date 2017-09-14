@@ -32,6 +32,7 @@ My pipeline consisted of 5 steps:
 5. Draw the lines
 
 ![solidWhiteCurves][test_images_output/solidWhiteCurves.jpg]
+<img src="test_images_output/solidWhiteCurves.jpg" width="480" alt="Combined Image" />
 
 
 ### 2. Identify potential shortcomings with your current pipeline
