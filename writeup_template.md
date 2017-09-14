@@ -33,7 +33,7 @@ My pipeline consisted of 5 steps:
 
 ![solidWhiteCurves][test_images_output/solidWhiteCurves.jpg]
 
-<img src="test_images_output/solidWhiteCurves.jpg" width="480" alt="Combined Image" />
+<img src="test_images_output/solidWhiteCurve.jpg" width="480" alt="Combined Image" />
 
 
 ### 2. Identify potential shortcomings with your current pipeline
