@@ -23,11 +23,13 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+My pipeline consisted of 5 steps:
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
+1. Detect the Edges 
+2. Apply a Mask
+3. Detect the Lanes
+4. Filter out irrelevant lines
+5. Draw the lines
 
 ![alt text][image1]
 
@@ -37,11 +39,14 @@ If you'd like to include images to show how the pipeline works, here is how to i
 
 One potential shortcoming would be what would happen when ... 
 
+When I ran the challenge problem, I noticed that when the yellow lane was on white pavement, the algorithm quite often lost it
+
 Another shortcoming could be ...
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
 
-Another potential improvement could be to ...
+One improvement would be to take into consideration the fact that each of the frames are related to the frames that surround it. To take advantage of that, if the lines predicted by the algorithm differ significantly from frame to frame, there's a pretty good chance that one of the lines isn't really a line.
+
+Another improvement would be to merge close lines together. If there are multiple predicted lines for a single lane line, then we can take the average or use a single line to represent it.
